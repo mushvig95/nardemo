@@ -3,11 +3,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 0 20px 0;
+    overflow: hidden;
 
     &-flags {
         display: flex; 
         margin-left: 10px;
-        overflow: hidden;
+       // overflow: hidden;
 
         &-flag {
             width: 25px;
@@ -40,6 +41,7 @@
     }
 
     &-socials {
+        overflow: hidden;
         &-icons {
             width: 20px;
             height: 20px;

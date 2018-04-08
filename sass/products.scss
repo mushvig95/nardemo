@@ -43,7 +43,9 @@
             
         }
     }
-
+    &__box1 {
+        overflow: hidden;
+    }
     &__box2 {
         overflow: hidden;
         @media only screen and (max-width: 767px) {

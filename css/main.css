@@ -11,14 +11,14 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0 20px 0; }
+  padding: 20px 0 20px 0;
+  overflow: hidden; }
   .header__box-flags {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 10px;
-    overflow: hidden; }
+    margin-left: 10px; }
     .header__box-flags-flag {
       width: 25px;
       height: 18px;
@@ -37,15 +37,17 @@
     .header__box-logo img {
       width: 100px;
       margin-left: 10px; } }
-  .header__box-socials-icons {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px; }
-    @media only screen and (max-width: 450px) {
-      .header__box-socials-icons {
-        width: 14px;
-        height: 14px;
-        margin-right: 10px; } }
+  .header__box-socials {
+    overflow: hidden; }
+    .header__box-socials-icons {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px; }
+      @media only screen and (max-width: 450px) {
+        .header__box-socials-icons {
+          width: 14px;
+          height: 14px;
+          margin-right: 10px; } }
 
 .nav {
   position: relative;
@@ -217,6 +219,8 @@
           height: 200px;
           -o-object-position: 5px;
              object-position: 5px; } }
+  .products__box1 {
+    overflow: hidden; }
   .products__box2 {
     overflow: hidden; }
     @media only screen and (max-width: 767px) {
@@ -375,7 +379,8 @@
        object-position: -80px; }
   .chairman__box-text {
     margin-left: 30px;
-    padding: 0 10px; }
+    padding: 0 10px;
+    overflow: hidden; }
     @media only screen and (max-width: 670px) {
       .chairman__box-text {
         margin-left: 0; } }
@@ -461,7 +466,8 @@
       .sloganslide__box {
         width: 96%; } }
   .sloganslide-row {
-    position: relative; }
+    position: relative;
+    overflow-x: visible !important; }
 
 .box-sm, .box-lg {
   height: 200px;
@@ -751,8 +757,7 @@
 
 html {
   margin: 0;
-  padding: 0;
-  overflow-x: hidden; }
+  padding: 0; }
 
 body {
   -webkit-box-sizing: border-box;
@@ -763,3 +768,6 @@ body {
 * {
   margin: 0;
   padding: 0; }
+
+.row {
+  overflow-x: hidden; }

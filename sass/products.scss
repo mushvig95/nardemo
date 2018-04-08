@@ -9,6 +9,7 @@
     &__box {
         display: flex;
         padding-bottom: 120px;
+        overflow: hidden;
         //border: 1px solid red;
         
         &-img1 {
@@ -44,6 +45,7 @@
     }
 
     &__box2 {
+        overflow: hidden;
         @media only screen and (max-width: 767px) {
             display: none;
         }

@@ -163,7 +163,7 @@ sr.reveal('.quote__box',{
 });
 sr.reveal('.chairman__box-photo',{
   duration: 1000,
-  origin: 'left',
+  origin: 'top',
   distance:'50px',
   scale: 0,
   easing:'ease',

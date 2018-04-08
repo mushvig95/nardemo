@@ -678,7 +678,11 @@
     font-size: 16px;
     padding-left: 10px;
     margin-bottom: 10px;
-    outline: none; }
+    outline: none;
+    border: 1px solid #D8D8D8;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none; }
     .popup .input:focus {
       border: 1px solid #E30334; }
     .popup .input-mail {

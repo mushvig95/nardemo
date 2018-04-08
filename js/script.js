@@ -114,4 +114,78 @@ $('.opensitemap').click(function(){
   $('.sitemap').slideToggle(500);
   $('.navigation__list-item').toggle();
   $( ".opensitemap" ).toggleClass('fa-times');
-})
+});
+
+// scroll reveal
+window.sr = ScrollReveal();
+
+sr.reveal('.header__box-flags',{
+  duration: 1000,
+  origin: 'left',
+  distance:'50px',
+  easing:'ease'
+});
+
+sr.reveal('.header__box-logo',{
+  duration: 1000,
+  origin: 'top',
+  distance:'50px',
+  easing:'ease'
+});
+
+sr.reveal('.header__box-socials',{
+  duration: 1000,
+  origin: 'right',
+  distance:'50px',
+  easing:'ease'
+});
+
+sr.reveal('.products__box1',{
+  duration: 1000,
+  origin: 'left',
+  distance:'50px',
+  scale: 0,
+  easing:'ease'
+});
+sr.reveal('.products__box2',{
+  duration: 1000,
+  origin: 'left',
+  distance:'50px',
+  scale: 0,
+  easing:'ease'
+});
+sr.reveal('.quote__box',{
+  duration: 1000,
+  origin: 'bottom',
+  distance:'50px',
+  scale: 0,
+  easing:'ease',
+});
+sr.reveal('.chairman__box-photo',{
+  duration: 1000,
+  origin: 'left',
+  distance:'50px',
+  scale: 0,
+  easing:'ease',
+});
+sr.reveal('.chairman__box-text',{
+  duration: 1000,
+  origin: 'right',
+  distance:'50px',
+  scale: 0,
+  easing:'ease',
+});
+sr.reveal('.slider__box',{
+  duration: 1000,
+  origin: 'bottom',
+  distance:'50px',
+  scale: 0,
+  easing:'ease',
+});
+sr.reveal('.sloganslide-row',{
+  duration: 1000,
+  origin: 'bottom',
+  distance:'50px',
+  scale: 0,
+  easing:'ease',
+});

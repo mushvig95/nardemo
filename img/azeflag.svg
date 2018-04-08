@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="18px" viewBox="0 0 25 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Azerbaijan</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-14.3%" y="-21.4%" width="128.6%" height="142.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="21" height="14" rx="2"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header" transform="translate(-147.000000, -41.000000)">
+            <g transform="translate(0.000000, -197.000000)" id="Azerbaijan">
+                <g filter="url(#filter-1)" transform="translate(149.000000, 240.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-2"></use>
+                    <image mask="url(#mask-3)" x="0" y="0" width="21" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAAXNSR0IArs4c6QAAA0RJREFUaAXtV0trFEEQ/noe+8hGJRGJxmfwhSYYo4JGxeDFm/EHeEkiHiQHPYgH8ZCrB/ESwWMOkoOCCCL4ykEECUoMQXyAGKNihCCSGM3uzuxMWz27k80+ZteQ3kAm0zD0VHd1T3/1VVXXMNx8zrGMmrKMsDpQA8B+ZzxgOGDYZxYIXNpnhBbACRguMInPBgKGfUZoARw21nBgwT8PUUUt2Hh2gCfAYYGxCA2RHjdITpEcTsuziuVf4rZVXqmMhlZm/r+mWVEtG5zA6nX7Ee04Cb21GdA1pN5/hvl0EMnHA7D5FK1c3KiSArgQrwBrorrzPKoudxImBcajQST67sH6NgEWjULdtB3861vSiy8q6IoAFiBip7tRdeWMY4vp7quIP7yVsYv4JCeXFr14XIbtzLwrZ0TJnfTdOcWopu8gZruco8Zv3CGwfQQwSk/Mid10PIedd1XbgHDrCdIVcb2Sehe4ZKSZ7YSJJTcDofY2sEgIPGEg3nub9hcJKte2nP9F7NxF6AeboNSvQXjkOP5cukbc/yLdkOQzZberAGAFWuNW5wvW2Dgs8zsxlwtAZG29djf0lp3Qj+51dFnNCuj7mpAcEoArx3Ku2bOGWNibm7Z5iRtPoytKpWduI68A3MVzJ+S9V4Bh27l6xBHVLfWUoNfBskadeHWPzeg+NidGYL7+AMQiUOpqYb35BOPFKydr53uEu05GL6XwqJpTeDhJK7INNcP9YCENM9f7Md3bA4XV5p1XJSPoUMJrKY4bkXj2wElanE+SXnHHm5FQeKgXaup78k4yb1Fn2QMypsJO/YASj0I/1gL9UBPskUmkxoZoX1EpCTcXGTnlyDw1hdSXj5m5JPXZvUjIaWapEMnR9BakAxafEqCN4UEwKwb9cDPCp9qgbdwFjCehmNXQVm+Gumo97N+i0jLFCnoE0NLxKwOwdJemU2daurQMNRxBpKOdSss9hInBejcKY+AlkvefUGn5k3TzEpe7vEgvw6UrCDjtvOAzjhMrVHQIFjno54EnyQuo8JgHWIFfCmDcPVvi7ihi5iU+5J0hljgwr+MHgL0s45fxgGG/MOmFI2DYyzJ+GQ8Y9guTXjgChr0s45fxZcfwP7pb4rpEmsUHAAAAAElFTkSuQmCC"></image>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

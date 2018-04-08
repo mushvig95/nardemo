@@ -1,0 +1,39 @@
+@import 'header';
+@import 'products';
+@import 'components';
+@import 'quote';
+@import 'chairman';
+@import 'membership';
+@import 'sliderbrands';
+@import 'sloganslide';
+@import 'footer';
+@import 'popup';
+
+
+
+@font-face {
+    font-family: Gilroy; 
+    src: url(../fonts/Gilroy-Light.otf); 
+    font-weight: normal;
+   }
+   @font-face {
+    font-family: Gilroy; 
+    src: url(../fonts/Gilroy-ExtraBold.otf);
+    font-weight: bold;
+   }
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

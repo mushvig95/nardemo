@@ -1,0 +1,94 @@
+.products {
+    //border: 1px solid red;
+    padding-top: 30px;
+
+    .row {
+        border-bottom: 1px solid #D5D5D5;
+    }
+  
+    &__box {
+        display: flex;
+        padding-bottom: 120px;
+        //border: 1px solid red;
+        
+        &-img1 {
+            object-fit: cover;
+            width: 330px;
+            height: 530px;
+            object-position: (-400px);
+            
+            @media only screen and (max-width: 1200px) {
+                width: 280px;
+                object-position: (-500px);
+            }
+            @media only screen and (max-width: 990px) {
+                width: 130px;
+                height: 200px;
+                object-position: (-160px);
+            }
+        }
+
+        &-img2 {
+            object-position: (0px);
+            @media only screen and (max-width: 1200px) {
+                width: 250px;
+                object-position: (-20px);
+            }
+            @media only screen and (max-width: 990px) {
+                width: 130px;
+                height: 200px;
+                object-position: (5px);
+            }
+            
+        }
+    }
+
+    &__box2 {
+        @media only screen and (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    &__box-img {
+        position: relative;
+    
+       &-square {
+           position: absolute;
+           top: 50px;
+           right: -25px;
+           width: 50px;
+           height: 50px;
+           background-color:rgba(227,3,52,.8);
+        }
+    }
+
+    &__box-description {
+        padding: 0 26px 0 14px;
+        border-right: 1px solid #D5D5D5;
+
+        &-text {
+            margin-top: 120px;
+            @media only screen and (max-width:990px) {
+                margin-top: 50px;
+            }
+        }
+        
+
+        &-title {
+            font-family: 'Gilroy';
+            font-weight: bold;
+            color: #AAAAAA;
+        }
+
+        &-heading {
+            font-family: 'Gilroy';
+            font-weight: bold;
+            font-size: 28px;
+        }
+        &-content {
+            color: #7F7F7F;
+            margin-bottom: 30px;
+        }
+    }
+}
+

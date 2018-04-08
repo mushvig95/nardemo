@@ -1,0 +1,165 @@
+.popup {
+    //border: 1px solid red;
+    height: 100vh;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    transition: all 1s;
+    animation: showdisplay .3s ease-in;
+    
+    &__box {
+        position: fixed;
+        width: 35%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 3;
+        @media only screen and (max-width: 1200px) {
+            width: 40%;
+        } 
+        @media only screen and (max-width: 990px) {
+            width: 50%;
+        }
+        @media only screen and (max-width: 770px) {
+            width: 98%;
+        }
+
+        &-heading {
+            padding: 10px;
+            text-align: center;
+            background-color: #E30334;
+            position: relative;
+             
+            h4 {
+                font-size: 24px;
+                color: #fff;
+                font-weight: bold;
+
+                @media only screen and (max-width: 400px) {
+                    font-size: 20px;
+                }
+            }
+            
+             i {
+                 color: white;
+                 font-size: 28px;
+                 position: absolute;
+                 top: 50%;
+                 right: 3%;
+                 transform: translate(-50%,-50%);
+                 cursor: pointer;
+
+                 @media only screen and (max-width: 400px) {
+                    font-size: 20px;
+                }
+
+            }
+        }
+    }
+
+    &__box-formbox {
+        background-color: #fff;
+        padding: 40px;
+
+        @media only screen and (max-width: 340px) {
+           padding: 20px;
+        }
+    }
+
+    .input{
+        width: 100%;
+        height: 56px;
+        font-size: 16px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        outline: none;
+        
+        &:focus{
+            border: 1px solid #E30334;
+        }
+
+        &-mail {
+            width: 40%;
+
+            @media only screen and (max-width: 990px) {
+                width: 100%;
+            } 
+        }
+
+        &-select {
+            border-radius: 0;
+            border:none;
+            appearance: none;
+            font-size: 14px;
+            height: 98%;
+            padding-left: 3px;
+            &:focus{
+                border: none;
+            }
+            
+            &-icon {
+                position: absolute;
+                top: 38%;
+                right: -40%;
+                
+            }
+        }
+
+        &-phone {
+            width: 80%;
+            border: none;
+            height: 98%;
+
+            @media only screen and (max-width: 990px) {
+                width: 85%;
+            }
+
+            @media only screen and (max-width: 770px) {
+                width:90%;
+            }
+
+            @media only screen and (max-width: 480px) {
+                width: 83%;
+            }
+            
+            &:focus{
+                border: none;
+            }
+        }
+    }
+}
+
+.other {
+    padding-left: 15px;
+    position: relative;
+    border: 1px solid #D8D8D8;
+    width: 58%;
+    float: right;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 990px) {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    &-select {
+        width: 30px;
+        position: relative;
+        //padding-right: 40px;
+    }
+}
+
+
+.wrapper {
+    filter: blur(0px);
+    transition: filter .3s;
+}
+
+
+
+

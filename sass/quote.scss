@@ -1,0 +1,47 @@
+.quote {
+    margin-top: 20px;
+    background-image: url(../img/pomig.png);
+    background-size: cover;
+    background-position:left;
+    position: relative;
+
+    &__container {
+        padding: 50px;
+
+        @media only screen and (max-width: 767px) {
+            padding: 50px 25px;
+        }
+    }
+    
+
+    &-btn {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    &__box {
+        padding: 40px;
+        width: 90%;
+        margin: 0 auto;
+        background-color: #fff;
+        position: relative;
+
+        @media only screen and (max-width: 767px) {
+            width: 100%;
+        }
+
+        &-heading {
+            font-size: 28px;
+            font-family: 'Gilroy';
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        &-text {
+            font-size: 16px;
+        }
+    }
+}
+
+//linear-gradient(to right,rgba(255,255,255,.2), rgba(255,255,255,.5)),

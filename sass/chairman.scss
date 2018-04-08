@@ -1,0 +1,58 @@
+.chairman {
+    margin-top: 30px;
+
+    &__box {
+        display: flex;
+        border-top: 1px solid #D8D8D8;
+        border-bottom: 1px solid #D8D8D8;
+        padding-top: 30px;
+        padding-bottom: 70px;
+
+        @media only screen and (max-width:670px) {
+            flex-direction: column;
+        }
+    }
+
+    &__box-photo {
+        width: 200px;
+        height: 200px;
+        padding-left: 10px;
+        position: relative;
+
+        &-square {
+            position: absolute;
+            top: 50px;
+            right: -25px;
+            width: 40px;
+            height: 40px;
+            background-color:#fff;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &__box-photo-img {
+        object-fit: cover;
+        width:190px;
+        height: 100%;
+        object-position: -80px;
+    }
+
+    &__box-text {
+        margin-left: 30px;
+        padding: 0 10px;
+
+        @media only screen and (max-width:670px) {
+            margin-left: 0;
+        }
+        
+        &-heading {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        &-content {
+            font-size: 16px;
+        }
+    }
+}

@@ -56,6 +56,9 @@
   border-right: none;
   padding: 3px 0 5px 0; }
 
+.navigation-row {
+  overflow: visible !important; }
+
 .navigation {
   display: -webkit-box;
   display: -webkit-flex;
